@@ -21,6 +21,15 @@ Kubernete is a container orchestrator used to deploy, automate and manage large-
 - `sudo kubectl create -f nginx_deploy.yml`
 - `kubectl get deploy`
 - `kubectl get pods`
+Other commands
+- `kubectl run deployment sparta-app --image=imagename:tag --port=port--replicas=number`
+- `kubectl run deployment spata-app --image=name --port=5000 --replicas=3`
+- `sudo kubectl run sparta-app --image=eng99/eng99-final-project:latest --port=5000 --replicas=2`
+- `kubectl run app --image=sparta-app:v1 --port=3000.....`
+- `kubectl edit deploy sparta-app`
+- `kubectl get deply`
+- `kubectl get node`
+- `
 
 ## Its benefits
 - Self Healing
@@ -44,5 +53,3 @@ Kubernete is a container orchestrator used to deploy, automate and manage large-
 Load balancing is a straightforward task in many non-container environments, but it involves a bit of special handling when it comes to containers. There are two types of load balancing in Kubernetes 
 - Internal load balancing across containers of the same type using a label, and 
 - External load balancing.
-
-### Selector
