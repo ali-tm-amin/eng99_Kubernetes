@@ -19,5 +19,5 @@ spec:
     app: nginx # this label connects this service to deployment
 
 # creating Loadbalancer type of deployment
-  type: Loadbalancer
+  type: LoadBalancer
 
